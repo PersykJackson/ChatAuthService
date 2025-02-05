@@ -1,0 +1,8 @@
+export const config = {
+  AUTH_TOKEN_TTL: 3 * 60 * 60 * 1000,
+  REFRESH_TOKEN_TTL: 3 * 24 * 60 * 60 * 1000,
+  CACHE_TTL: 180,
+  CACHE_MAX_KEYS: 200,
+  PASSWORD_LENGTH: 32,
+  USER_NAME_MINIMAL_LENGTH: 5,
+};
